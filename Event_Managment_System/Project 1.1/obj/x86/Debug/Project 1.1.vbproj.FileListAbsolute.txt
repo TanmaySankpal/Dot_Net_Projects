@@ -1,0 +1,98 @@
+E:\Study\TS VB project\Project 1.1\Project 1.1\bin\Debug\Project 1.1.exe
+E:\Study\TS VB project\Project 1.1\Project 1.1\bin\Debug\Project 1.1.pdb
+E:\Study\TS VB project\Project 1.1\Project 1.1\bin\Debug\Project 1.1.xml
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Enquiry_Status.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_all_Enquiries.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Decoration.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Decoration.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Menu.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Form1.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Menu.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.TC_Add_Customer.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Event.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_Enquiry.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_S_Event_Charges.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_S_Event_Detail.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Services.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Event.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_All_Customer.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Single_Customer.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Event_Charges.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Booking_Event.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Customer.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Login.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.MDI_Main_Form.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.UC_View_Event.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.UC_View_Menu.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.UC_View_Decoration.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_Decoration.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_Event.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_Menu.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_view_Single_Enquiry.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.exe
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.xml
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.pdb
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_User.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_User.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_All_User.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_All_Employee.resources
+E:\Study\TS VB project\Project RAR\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.exe
+E:\Study\TS VB project\Project RAR\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.xml
+E:\Study\TS VB project\Project RAR\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.pdb
+E:\Study\TS VB project\Project 1.1\Project 1.1\bin\Debug\Project 1.1.exe.config
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_All_Customer_Report.resources
+E:\Study\TS VB project\Project RAR\Project 1.1\Project 1.1\bin\Debug\Project 1.1.exe.config
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_All_Cust_Report.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Bill_search.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Package_Report.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Bill_print.resources
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.vbprojResolveAssemblyReference.cache
+E:\Study\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.vbproj.GenerateResource.Cache
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\bin\Debug\Project 1.1.exe.config
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.exe
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.xml
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.pdb
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.vbprojResolveAssemblyReference.cache
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Bill_print.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Package_Report.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Enquiry_Status.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_all_Enquiries.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Bill_search.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_All_Customer_Report.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_All_Cust_Report.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Decoration.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Decoration.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Menu.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Form1.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Menu.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.TC_Add_Customer.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Event.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_Enquiry.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_S_Event_Charges.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_S_Event_Detail.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Services.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Event.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_All_Customer.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_Single_Customer.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Event_Charges.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Booking_Event.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_Customer.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Login.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.MDI_Main_Form.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.UC_View_Event.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.UC_View_Menu.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.UC_View_Decoration.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_Decoration.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_Event.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_Menu.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_view_Single_Enquiry.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Add_New_User.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_Update_User.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_All_Employee.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\WindowsApplication1.Frm_View_All_User.resources
+E:\Study\TS\TS VB project\Project 1.1\Project 1.1\obj\x86\Debug\Project 1.1.vbproj.GenerateResource.Cache

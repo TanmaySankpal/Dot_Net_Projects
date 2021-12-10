@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C021724C-4C19-4528-A476-E5571513AAEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.MDI_Main_Form</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Project 1.1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Project 1.1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Project 1.1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.4">
+      <HintPath>..\..\..\Softs\Bunifu_UI_v1.4.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comman Class\Auto_Increm_Module.vb" />
+    <Compile Include="Comman Class\Clear_Controls_Module.vb" />
+    <Compile Include="Comman Class\Com_connection.vb" />
+    <Compile Include="Comman Class\Watermark.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Forms\Bill_print.Designer.vb">
+      <DependentUpon>Bill_print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Forms\Bill_print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Forms\Package_Report.Designer.vb">
+      <DependentUpon>Package_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Forms\Package_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\rpt\CR_All_Cust_update.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_All_Cust_update.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Enquiry\Enquiry_Status.Designer.vb">
+      <DependentUpon>Enquiry_Status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\Enquiry_Status.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enquiry\View all Enquiries.Designer.vb">
+      <DependentUpon>View all Enquiries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\View all Enquiries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\data set\DS_All_Cust.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_All_Cust.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\data set\DS_All_Customer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_All_Customer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Forms\Bill_search.Designer.vb">
+      <DependentUpon>Bill_search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Forms\Bill_search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Forms\Frm_All_Cust_Report.Designer.vb">
+      <DependentUpon>Frm_All_Cust_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Forms\Frm_All_Cust_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Forms\Frm_All_Customer_Report.Designer.vb">
+      <DependentUpon>Frm_All_Customer_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Forms\Frm_All_Customer_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\rpt\CR_All_Cust.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_All_Cust.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt\CR_Bill_Search.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Bill_Search.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt\CR_Package1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Package1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\Frm_View_Decoration.Designer.vb">
+      <DependentUpon>Frm_View_Decoration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Frm_View_Decoration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\Frm_Add_New_Decoration.Designer.vb">
+      <DependentUpon>Frm_Add_New_Decoration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Frm_Add_New_Decoration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\Frm_Add_New_Menu.Designer.vb">
+      <DependentUpon>Frm_Add_New_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Frm_Add_New_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comman Class\Comman_Class.vb" />
+    <Compile Include="Other\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Other\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\Frm_View_Event.Designer.vb">
+      <DependentUpon>Frm_View_Event.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Frm_View_Event.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\Frm_View_Menu.Designer.vb">
+      <DependentUpon>Frm_View_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Frm_View_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\TC_Add_Customer.Designer.vb">
+      <DependentUpon>TC_Add_Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Other\TC_Add_Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enquiry\Frm_Add_Enquiry.Designer.vb">
+      <DependentUpon>Frm_Add_Enquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\Frm_Add_Enquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Frm_View_S_Event_Charges.Designer.vb">
+      <DependentUpon>Frm_View_S_Event_Charges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Frm_View_S_Event_Charges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Frm_View_S_Event_Detail.Designer.vb">
+      <DependentUpon>Frm_View_S_Event_Detail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Frm_View_S_Event_Detail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\Frm_Add_New_Services.Designer.vb">
+      <DependentUpon>Frm_Add_New_Services.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Other\Frm_Add_New_Services.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\Frm_Add_New_Event.Designer.vb">
+      <DependentUpon>Frm_Add_New_Event.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Frm_Add_New_Event.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Frm_View_All_Customer.Designer.vb">
+      <DependentUpon>Frm_View_All_Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Frm_View_All_Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Frm_View_Single_Customer.Designer.vb">
+      <DependentUpon>Frm_View_Single_Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Frm_View_Single_Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Frm_Event_Charges.Designer.vb">
+      <DependentUpon>Frm_Event_Charges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Frm_Event_Charges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Frm_Booking_Event.Designer.vb">
+      <DependentUpon>Frm_Booking_Event.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Frm_Booking_Event.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Frm_Add_New_Customer.Designer.vb">
+      <DependentUpon>Frm_Add_New_Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Frm_Add_New_Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_MDI_Enquiry\Frm_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_MDI_Enquiry\Frm_Login.Designer.vb">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_MDI_Enquiry\MDI_Main_Form.Designer.vb">
+      <DependentUpon>MDI_Main_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login_MDI_Enquiry\MDI_Main_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Comman Class\UC_View_Event.Designer.vb">
+      <DependentUpon>UC_View_Event.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comman Class\UC_View_Event.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Comman Class\UC_View_Menu.Designer.vb">
+      <DependentUpon>UC_View_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comman Class\UC_View_Menu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Comman Class\UC_View_Decoration.Designer.vb">
+      <DependentUpon>UC_View_Decoration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comman Class\UC_View_Decoration.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Services\Update_Decoration.Designer.vb">
+      <DependentUpon>Update_Decoration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Update_Decoration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\Update_Event.Designer.vb">
+      <DependentUpon>Update_Event.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Update_Event.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\Update_Menu.Designer.vb">
+      <DependentUpon>Update_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Update_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enquiry\view Single Enquiry.Designer.vb">
+      <DependentUpon>view Single Enquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\view Single Enquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Add New User.Designer.vb">
+      <DependentUpon>Add New User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Add New User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Update User.Designer.vb">
+      <DependentUpon>Update User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Update User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\View All Employee.Designer.vb">
+      <DependentUpon>View All Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\View All Employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\View All User.Designer.vb">
+      <DependentUpon>View All User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\View All User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Report\Forms\Bill_print.resx">
+      <DependentUpon>Bill_print.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Forms\Package_Report.resx">
+      <DependentUpon>Package_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt\CR_All_Cust_update.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_All_Cust_update.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\Enquiry_Status.resx">
+      <DependentUpon>Enquiry_Status.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\View all Enquiries.resx">
+      <DependentUpon>View all Enquiries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Forms\Bill_search.resx">
+      <DependentUpon>Bill_search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Forms\Frm_All_Customer_Report.resx">
+      <DependentUpon>Frm_All_Customer_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Forms\Frm_All_Cust_Report.resx">
+      <DependentUpon>Frm_All_Cust_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt\CR_All_Cust.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_All_Cust.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt\CR_Bill_Search.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Bill_Search.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt\CR_Package1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Package1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Frm_View_Decoration.resx">
+      <DependentUpon>Frm_View_Decoration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Frm_Add_New_Decoration.resx">
+      <DependentUpon>Frm_Add_New_Decoration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Frm_Add_New_Menu.resx">
+      <DependentUpon>Frm_Add_New_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Frm_View_Menu.resx">
+      <DependentUpon>Frm_View_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\TC_Add_Customer.resx">
+      <DependentUpon>TC_Add_Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Frm_View_Event.resx">
+      <DependentUpon>Frm_View_Event.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\Frm_Add_Enquiry.resx">
+      <DependentUpon>Frm_Add_Enquiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Frm_View_S_Event_Charges.resx">
+      <DependentUpon>Frm_View_S_Event_Charges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Frm_View_S_Event_Detail.resx">
+      <DependentUpon>Frm_View_S_Event_Detail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\Frm_Add_New_Services.resx">
+      <DependentUpon>Frm_Add_New_Services.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Frm_Add_New_Event.resx">
+      <DependentUpon>Frm_Add_New_Event.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Frm_View_All_Customer.resx">
+      <DependentUpon>Frm_View_All_Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Frm_View_Single_Customer.resx">
+      <DependentUpon>Frm_View_Single_Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Frm_Event_Charges.resx">
+      <DependentUpon>Frm_Event_Charges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Frm_Booking_Event.resx">
+      <DependentUpon>Frm_Booking_Event.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Frm_Add_New_Customer.resx">
+      <DependentUpon>Frm_Add_New_Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_MDI_Enquiry\Frm_Login.resx">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_MDI_Enquiry\MDI_Main_Form.resx">
+      <DependentUpon>MDI_Main_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comman Class\UC_View_Event.resx">
+      <DependentUpon>UC_View_Event.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comman Class\UC_View_Menu.resx">
+      <DependentUpon>UC_View_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comman Class\UC_View_Decoration.resx">
+      <DependentUpon>UC_View_Decoration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Update_Decoration.resx">
+      <DependentUpon>Update_Decoration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Update_Event.resx">
+      <DependentUpon>Update_Event.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\Update_Menu.resx">
+      <DependentUpon>Update_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\view Single Enquiry.resx">
+      <DependentUpon>view Single Enquiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Add New User.resx">
+      <DependentUpon>Add New User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Update User.resx">
+      <DependentUpon>Update User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\View All Employee.resx">
+      <DependentUpon>View All Employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\View All User.resx">
+      <DependentUpon>View All User.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Other\ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Report\data set\DS_All_Cust.xsc">
+      <DependentUpon>DS_All_Cust.xsd</DependentUpon>
+    </None>
+    <None Include="Report\data set\DS_All_Cust.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_All_Cust.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\data set\DS_All_Cust.xss">
+      <DependentUpon>DS_All_Cust.xsd</DependentUpon>
+    </None>
+    <None Include="Report\data set\DS_All_Customer.xsc">
+      <DependentUpon>DS_All_Customer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\data set\DS_All_Customer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_All_Customer.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\data set\DS_All_Customer.xss">
+      <DependentUpon>DS_All_Customer.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\images-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eventmangment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EventMgtLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-event-services-event-consulation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\134-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\events-icon-orange-200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81-817931_my-initial-next-button-design-next-button-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81-817931_my-initial-next-button-design-next-button-transparent1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81-817931_my-initial-next-button-design-next-button-transparent2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Right-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Rotate-Right-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knob-Search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-101-folder-search_314678.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-User-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-add-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-accessories-calculator-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-accessories-calculator-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-accessories-calculator-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator-3-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-accessories-calculator-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07c87bd5ce579b5371fee0d24eb525bc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D7F1FB06-4C7E-48FB-8118-FFD6F7E2638D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MZH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MZH1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Event-Management.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Event-Management1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other-Update-Metro-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knob-Search-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-101-folder-search_3146781.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Right-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Right-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon %281%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\services-portfolio-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pay-Per-Click-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other-Update-Metro-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Go-Left-icon %281%295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other-Update-Metro-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\services-portfolio-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other-Update-Metro-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-add-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knob-Search-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-session-logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BBB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BBB1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receptionist 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receptionist 11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Owner-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\band_baaja_baaraat-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pay-Per-Click-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-User-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-accessories-calculator-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-view-split-left-right-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D7F1FB06-4C7E-48FB-8118-FFD6F7E2638D1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D7F1FB06-4C7E-48FB-8118-FFD6F7E2638D2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Event-Management2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engagement-event-management-500x500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D7F1FB06-4C7E-48FB-8118-FFD6F7E2638D3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shubhaarambh-event7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MZH2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
